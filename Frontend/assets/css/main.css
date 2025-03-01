@@ -1,0 +1,45 @@
+body {
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+background: linear-gradient(135deg, #ff5f5f, #ffb94d);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.subtitle {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffcc00;
+}
+.timer {
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+    color: gold;
+}
+.phoenix-icon {
+    width: 80px;
+    margin-top: 40px;
+    animation: bounce 2s infinite ease-in-out;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
